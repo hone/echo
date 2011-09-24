@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "rails", "~> 3.1"
+gem "rails", :github => 'rails/rails', :branch => '3-1-stable'
 
 gem "bson_ext"
 gem "bundler"
@@ -13,7 +13,7 @@ gem "mongoid"
 gem "unicorn"
 
 group :assets do
-  gem "sass-rails", "~> 3.1"
+  gem "sass-rails", :github => 'rails/sass-rails', :branch => '3-1-stable'
   gem "coffee-rails", "~> 3.1"
   gem "uglifier"
 end
